@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance | Controle financeiro</title>
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class='bx bx-dollar-circle'></i>
+            <h1>Finance</h1>
+        </div>
+        <nav class="navigation">
+            <a href="#">Painel</a>
+            <a href="#">Alterar Rendas</a>
+            <a href="#">Lembretes</a>
+            <a href="#">Desempenho</a>
+            <a href="#">
+                <i class='bx bx-user' ></i>
+            </a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="rendas">
+            <div class="fixa">
+                <h3>Renda Fixa:</h3>
+                <span>R$ 0.00</span>
+            </div>
+            <div class="extra">
+                <h3>Renda Extra:</h3>
+                <span>R$ 0.00</span>
+            </div>
+        </div>
+
+        <div class="despesas">
+            <h3>Despesas</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                        <th>Vencimento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Água
+                        </td>
+                        <td>
+                            <input type="number" id="conta" placeholder="R$ 0.00">
+                        </td>
+                        <td>
+                            <input type="date" id="venci">
+                        </td>
+                        <tr>
+                            <td>
+                                Energia
+                            </td>
+                            <td>
+                                <input type="number" id="conta" placeholder="R$ 0.00">
+                            </td>
+                            <td>
+                                <input type="date" id="venci">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Internet
+                            </td>
+                            <td>
+                                <input type="number" id="conta" placeholder="R$ 0.00">
+                            </td>
+                            <td>
+                                <input type="date" id="venci">
+                            </td>
+                        </tr>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
